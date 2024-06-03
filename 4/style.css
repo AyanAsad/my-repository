@@ -1,0 +1,40 @@
+ @font-face {
+    font-family: 'acquardaBastarda9Charted';
+    src: url('JacquardaBastarda9Charted-Regular.ttf');}
+
+*{
+    font-family:acquardaBastarda9Charted;
+} 
+a{
+    color: aqua;
+    text-decoration: wavy;
+}
+  h1 >b{
+color: 
+red;
+text-decoration: underline;
+}
+ p{
+font-family: 'Courier New', Courier, monospace;
+font-size: medium;
+background-color: #eeeeee;
+color: #666666;
+text-shadow: 1px 1px 0px #000000;
+/* line-height: 42px;
+word-spacing: 2em;
+letter-spacing: 2em; */
+/* text-align: center;
+text-align: justify;
+text-align: left;
+text-align: right; */
+} 
+p.intro:first-letter {
+    font-size: 200%;}
+    p.intro:first-line {
+    font-weight: bold;}
+body{
+    background:cyan;
+}
+.para{
+    text-indent: 10%;
+}

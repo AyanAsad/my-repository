@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+
+
+
+
+    <form action="http://www.example.com/login.php">
+
+        <fieldset>
+            <legend>AYAN ADDMISION FORM!</legend>
+            <p>Username:
+                <input required type="text" name="username" size="15" maxlength="30" />
+            </p>
+            <!-- <p>Password:
+            <input required type="password" name="password" size="15" maxlength="30" />
+        </p> -->
+
+
+
+
+            <p></p>
+
+
+
+
+
+
+            <p>What did you think of GHANIA</p>
+            <input required type="radio" name="genre" value="POTI" />
+
+
+
+
+
+
+
+            <p>
+                GHANIA IN ME S KIYA KHATI H???
+                <br />
+                <input required type="radio" name="genre" value="LANDI" checked="checked" />LANDI <br>
+                <input required type="radio" name="genre" value="POTI" />
+                POTI <br>
+                <input required type="radio" name="genre" value="TATI" />
+                TATI <br>
+                <input required type="radio" name="genre" value="ALL OF THE ABOVE" />
+                ALL OF THE ABOVE <br>
+            </p>
+
+
+
+
+
+
+            <p>GHANIA IN TEENO ME S KIYA H ??
+                <br />
+                <input required type="checkbox" name="service" value="PAGAL" checked="checked" />PAGAL <br>
+                <input required type="checkbox" name="service" value="NAFSIATI" /> NAFSIATI <br>
+                <input required type="checkbox" name="service" value="JAHIL" />JAHIL <br>
+            </p>
+
+
+
+
+
+
+            <P>
+                GHANIA KI AMMMI KON HAI????
+            </P>
+            <select name="devices">
+                <option required value="HAREEEM AMMMI">HAREEEM AMMMI</option> <br>
+                <option required value="HAREEEM AMMMI">HAREEEM AMMMI</option> <br>
+                <option required value="ALIZA AMMMI">ALIZA AMMMI</option> <br>
+                <option required value="SHANZAY AMMMI">SHANZAY AMMMI
+                </option> <br>
+            </select>
+
+            <!-- <input type="hidden" name=""> -->
+
+
+
+
+
+            <p>
+                UPLOAD YOUR FILE!!!
+                <input required type="file" value="file">
+            </p>
+
+
+        </fieldset>
+        <fieldset>
+            <legend>PRIVATE INFORMATION??</legend>
+            <p>
+                EMAIL:
+                <input type="email" name="" id=""><br>
+            </p>
+            <p> Password:
+                <input type="password" name="" id=""><br>
+            </p>
+            <p>TYPE A URL??
+                <input type="url" name="" id=""><br>
+
+            </p>
+            <p> SEARCH:
+                <input type="search" name="" id=""><br>
+
+
+            </p>
+            <p>UPLOAD YOUR RESPONSE:
+                <br>
+                <input required type="image" height="100" width="100"
+                    src="data:image/png;base64,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"
+                    alt="submit image">
+            </p>
+        </fieldset>
+
+
+
+
+
+
+
+
+
+    </form>
+</body>
+
+</html>

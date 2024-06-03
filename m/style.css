@@ -1,0 +1,15 @@
+.main{
+border: 2px dashed red;
+width: 300px;
+min-height:  200px;
+max-height: 500px
+;
+overflow: scroll;
+/* min-width:  200px;
+max-width: 1000px; */
+}
+/* img{
+    
+width :100%;
+
+} */
